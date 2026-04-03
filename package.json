@@ -1,0 +1,46 @@
+{
+  "name": "playwright-healing-locators",
+  "version": "1.0.0",
+  "description": "A robust helper library for Playwright that improves test stability by automatically resolving broken selectors through fallback strategies and auto-healing.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "selectors",
+    "healing",
+    "resilient",
+    "fallback",
+    "auto-heal",
+    "test-stability",
+    "e2e-testing"
+  ],
+  "author": "Iniyavan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iniyavans/playwright-healing-locators.git"
+  },
+  "homepage": "https://github.com/iniyavans/playwright-healing-locators#readme",
+  "bugs": {
+    "url": "https://github.com/iniyavans/playwright-healing-locators/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "@playwright/test": "^1.59.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.0",
+    "playwright": "^1.59.1"
+  }
+}
