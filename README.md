@@ -124,12 +124,6 @@ test('Auto Healing with keyword-based candidate search', async ({ page }) => {
 3. Add tests in `tests/*.spec.ts`
 4. Submit PR
 
-## Publishing
-
-1. Update `package.json` metadata (`name`, `version`, `description`, `repository`, `keywords`, `author`, `license`).
-2. `npm login`.
-3. `npm publish --access public`.
-
 ## Limitations & Known Issues
 
 While this package improves test resilience, be aware of these considerations:
